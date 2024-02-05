@@ -1,0 +1,61 @@
+/* Task 1 */
+.text-box h3:nth-of-type(odd) {
+    color: pink;
+  }
+  
+  #greycol {
+    color: grey;
+  }
+  
+  .text-box div p {
+    color: red;
+  }
+  
+  .text-box p:nth-of-type(3) {
+    color: green;
+  }
+  
+  .text-box .yellow {
+    color: yellow;
+  }
+  
+  /* Task 2 */
+  .lessons-container {
+    margin-top: 20px;
+  }
+  
+  .lessons-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Structural pseudo-classes */
+  .lessons-container li:first-child {
+    background-color: lightblue;
+  }
+  
+  .lessons-container li:last-child {
+    background-color: lightcoral;
+  }
+  
+  .lessons-container li:nth-child(2n) {
+    background-color: lightgreen;
+  }
+  
+  /* State pseudo-classes */
+  .lessons-container li:hover {
+    transform: scale(1.1);
+  }
+  
+  .lessons-container li:active {
+    background-color: pink;
+  }
+  
+  .lessons-container li:focus-within {
+    outline: 2px solid red;
+  }
+  
+  .lessons-container li:checked {
+    text-decoration: line-through;
+  }
+  
